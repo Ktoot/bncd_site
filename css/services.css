@@ -1,0 +1,10 @@
+.serviceContainer {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 0 100px;
+}
+
+.servicesImg {
+    width: 500px;
+    height: 400px;
+}

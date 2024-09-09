@@ -1,0 +1,308 @@
+
+/*
+ALL
+*/
+
+* {
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+
+/*
+SIZE
+*/
+
+.widthFit {
+    width: 100%;
+}
+
+.heigthFit {
+    height: 100%;
+}
+
+.heigth200 {
+    height: 200px;
+}
+
+.heigth250 {
+    height: 250px;
+}
+
+.size_1 {
+    width: 220px;
+    height: 50px;
+}
+
+.size_2 {
+    width: 300px;
+    height: 200px;
+}
+
+
+/*
+INDENTATION
+*/
+
+.marginAuto {
+    margin: auto;
+}
+
+.margin_0 {
+    margin: 0;
+}
+
+.marginBottom20 {
+    margin-bottom: 20px !important;
+}
+
+.marginBottom30 {
+    margin-bottom: 30px !important;
+}
+
+.marginBottom40 {
+    margin-bottom: 40px !important;
+}
+
+.marginTop20 {
+    margin-Top: 20px !important;
+}
+
+.marginTop10 {
+    margin-top: 10px !important;
+}
+
+.margin10_0 {
+    margin: 10px 0;
+}
+
+.margin30_0 {
+    margin: 30px 0;
+}
+
+.margin50_0 {
+    margin: 50px 0;
+}
+
+.margin80_0 {
+    margin: 80px 0;
+}
+
+.padding40 {
+    padding: 40px;
+}
+
+.padding30 {
+    padding: 30px;
+}
+
+.paddingV30 {
+    padding: 30px 0;
+}
+
+.paddingV40 {
+    padding: 40px 0;
+}
+
+.paddingBottom50 {
+    padding-bottom: 50px;
+}
+
+
+/*
+BACKGROUND
+*/
+
+.gradientBackground {
+    background-image: linear-gradient(120deg, #478ac9, #4031b8) !important;
+    color: #fff !important;
+}
+
+.backgrCnR {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_1 {
+    background: #f2f2f2;
+}
+
+.background_2 {
+    background: #fff;
+    color: #000;
+}
+
+.backgroundKeyboard {
+    background-image: url(../images/keyboard.jpg);
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+
+
+
+/*
+FLEX and GRID
+*/
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexBetween {
+    justify-content: space-between;
+}
+
+.flexAround {
+    justify-content: space-around;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.flexCenter {
+    align-items: center;
+}
+
+.spanR_2 {
+    grid-row: span 2;
+}
+
+.spanR_3 {
+    grid-row: span 3;
+}
+
+.spanC_2 {
+    grid-column: span 2;
+}
+
+
+
+/*
+BUTTONS
+*/
+
+
+.mainButton {
+    background-color: #478ac9;
+    font-weight: 800;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: inset 2px transparent;
+}
+
+.mainButton:hover {
+    background-color: #030864;
+    border-bottom: inset 2px #808080;
+}
+
+.mainButton.active {
+    background-color: #387cbd !important;
+    border-bottom: inset 2px #000000 !important;
+}
+
+.buttonWhite {
+    background-color: #fff;
+    color: #000;
+}
+
+.buttonWhite:hover {
+    background-color: #4c7397 !important;
+    color: #fff !important;
+}
+
+
+
+/*
+BORDER AND SHADOW
+*/
+
+.borderR20 {
+    border-radius: 20px;
+}
+
+.borderR30 {
+    border-radius: 30px;
+}
+
+.borderR50 {
+    border-radius: 50px;
+}
+
+.shadow_1 {
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.shadow_2 {
+    box-shadow: 0px 0px 8px 0px rgba(128, 128, 128, 1);;
+}
+
+
+
+
+/*
+ALIGN
+*/
+
+.textCenter {
+    text-align: center;
+}
+
+.textCenterFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*
+CURSOR
+*/
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

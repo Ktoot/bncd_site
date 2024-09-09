@@ -1,0 +1,35 @@
+
+footer {
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(120deg, #478ac9, #4031b8);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+footer a {
+    display: block;
+}
+
+
+.qw {
+    width: fit-content;
+    margin: 30px auto 0;
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+
+.footerContainer {
+    margin: auto;
+    width: 1240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 100px 50px;
+}
+
+.footerNav {
+    margin: 10px auto 0;
+}
+

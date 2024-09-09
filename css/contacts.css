@@ -1,0 +1,48 @@
+
+
+.mapMain {
+    width: 100%;
+    height: calc(100vh - 60px);
+    border: none;
+}
+
+.contactsSection {
+    width: 420px;
+    height: 380px;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.conBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 160px 170px;
+}
+
+.conBorder_1 {
+    border-right: rgba(255, 255, 255, 0.5) 1px solid;
+}
+
+.conBorder_2 {
+    border-left: rgba(255, 255, 255, 0.5) 1px solid;
+}
+
+.conBorder_3 {
+    border-top: rgba(255, 255, 255, 0.5) 1px solid;
+}
+
+.conImage {
+    height: 50px;
+}
+
+.conCustomFont {
+    margin: 15px;
+    letter-spacing: 0.3rem;
+}
+
+
+
+

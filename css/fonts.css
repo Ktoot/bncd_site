@@ -1,0 +1,80 @@
+
+html {
+    font-size: 20px;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+h2 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+h3 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+h5 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+h6 {
+    margin: 0;
+    font-size: 0.6rem;
+}
+
+
+
+.fontSize_08 {
+    font-size: 0.8rem;
+}
+
+.fontSize_06 {
+    font-size: 0.6rem;
+}
+
+.fontSize_12 {
+    font-size: 1.2rem;
+}
+
+.fontSize_16 {
+    font-size: 1.6rem;
+}
+
+
+
+
+.fontWidth500 {
+    font-weight: 500;
+}
+
+.fontWidth700 {
+    font-weight: 700;
+}
+
+.fontWidth800 {
+    font-weight: 800;
+}
+
+.fontWidth1000 {
+    font-weight: 1000;
+}
+
+
+
+
+
+.textWhite {
+    color: #fff;
+}
