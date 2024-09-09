@@ -78,3 +78,22 @@ h6 {
 .textWhite {
     color: #fff;
 }
+
+
+
+
+
+.ggg {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    font-size: large;
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    right: 50%;
+}
+
+
+

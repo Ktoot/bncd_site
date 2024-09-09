@@ -122,5 +122,19 @@
     </section>
 
 
+    <section class="ggg textCenterFlex" id="my-button">ВАКАНСИИ</section>
+    <script>
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        $("#my-button").hover(function () { 
+            $(this).css({
+                top: getRandomInt(50, 600)+"px",
+                left: getRandomInt(200, 1100)+"px"
+            });
+        }, function () { });
+    </script>
+
+
 </body>
 </html>
