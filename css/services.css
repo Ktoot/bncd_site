@@ -2,9 +2,25 @@
     display: grid;
     grid-template-columns: 500px 500px;
     gap: 0 100px;
+    opacity: 0;
+    transform: translateX(+100px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.serviceContainer.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .servicesImg {
     width: 500px;
     height: 400px;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.servicesImg.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
