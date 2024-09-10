@@ -14,16 +14,17 @@
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/mainNews.js"></script>
     <script type="text/javascript" src="../js/copy.js"></script>
+    <script type="text/javascript" src="../js/counter.js"></script>
 </head>
 <body>
 
     <script type="text/javascript" src="../js/headerNfooter.js"></script>
 
 
-    <section class="widthFit mainSlider backgrCnR">
+    <section class="widthFit mainSlider backgrCnR" id="mainSlider">
         <div class="flexColumn sliderContainer">
             <h1 class="sliderTitle textWhite">БелНИЦЭД</h1>
-            <h4 class="sliderText textWhite">Белорусский научно-исследовательский центр электронной документации (БелНИЦЭД) создан в соответствии с постановлениемСовета Министров Республики Беларусь от 18 сентября 1998 года №1465 "О создании Белорусского научно-исследовательского центраэлектронной документации"</h2>
+            <h4 class="sliderText textWhite">Белорусский научно-исследовательский центр электронной документации (БелНИЦЭД) создан в соответствии с постановлениемСовета Министров Республики Беларусь от 18 сентября 1998 года №1465 "О создании Белорусского научно-исследовательского центраэлектронной документации"</h4>
         </div>
     </section>
 
@@ -36,7 +37,7 @@
             </a>
             <a href="#" class="activityCard borderR50 shadow_1">
                 <img src="../images/logo.png" alt="icon" class="activityIcon">
-                <div class="activityCardText marginTop10">Оказание помощи в создании  архивов электронных документов</div>
+                <div class="activityCardText marginTop10">Оказание помощи в создании архивов электронных документов</div>
             </a>
             <a href="#" class="activityCard borderR50 shadow_1 gradientBackground">
                 <img src="../images/logo.png" alt="icon" class="activityIcon" style="border-radius: 30px;"> <!--style made for test!!!!!!!!!!!!!!!!-->
@@ -48,7 +49,7 @@
             </a>
             <a href="#" class="activityCard borderR50 shadow_1 gradientBackground">
                 <img src="../images/logo.png" alt="icon" class="activityIcon" style="border-radius: 30px;"> <!--style made for test!!!!!!!!!!!!!!!!-->
-                <div class="activityCardText marginTop10">Предоставление рекомендаций по автоматизации документ. обеспечения организации</div>
+                <div class="activityCardText marginTop10">Предоставление рекомендаций по автоматизации документов обеспечения организации</div>
             </a>
             <a href="#" class="activityCard borderR50 shadow_1">
                 <img src="../images/logo.png" alt="icon" class="activityIcon">
@@ -71,17 +72,17 @@
         <div class="statContainer padding40 flexRow flexBetween">
             <div class="statCard flexColumn flexCenter padding30 background_1 shadow_2">
                 <img src="../images/logo.png" alt="icon" class="statIcon" style="border-radius: 30px;">
-                <h2 class="marginBottom30">+500</h2>
+                <h2 class="statCounter marginBottom30" data-target="500">0</h2>
                 <h4 class="statText fontWidth500">Количество выполненных заказов</h4>
             </div>
             <div class="statCard flexColumn flexCenter padding30 background_1 shadow_2 gradientBackground">
                 <img src="../images/logo.png" alt="icon" class="statIcon" style="border-radius: 30px;">
-                <h2 class="marginBottom30">37</h2>
+                <h2 class="statCounter marginBottom30" data-target="37">0</h2>
                 <h4 class="statText fontWidth500">Размер штата</h4>
             </div>
             <div class="statCard flexColumn flexCenter padding30 background_1 shadow_2">
                 <img src="../images/logo.png" alt="icon" class="statIcon" style="border-radius: 30px;">
-                <h2 class="marginBottom30">15</h2>
+                <h2 class="statCounter marginBottom30" data-target="15">0</h2>
                 <h4 class="statText fontWidth500">Количество разработок в сфере ПО</h4>
             </div>
         </div>
@@ -127,7 +128,7 @@
         function getRandomInt(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
-        $("#my-button").hover(function () { 
+        $("#my-button").hover(function () {
             $(this).css({
                 top: getRandomInt(50, 600)+"px",
                 left: getRandomInt(200, 1300)+"px"
