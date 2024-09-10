@@ -10,6 +10,7 @@ $(document).ready(function(){
                             "</a>" +
                             "<div class='flexRow flexCenter flexBetween menu'>" +
                                 "<a href='mainPage.html' class='mainButton menuButton' id='menu_mainPage'>ГЛАВНАЯ</a>" +
+                                "<a href='news.html' class='mainButton menuButton' id='menu_news'>НОВОСТИ</a>" +
                                 "<a href='services.html' class='mainButton menuButton' id='menu_services'>УСЛУГИ</a>" +
                                 "<a href='about.html' class='mainButton menuButton' id='menu_about'>О НАС</a>" +
                                 "<a href='contacts.html' class='mainButton menuButton' id='menu_contacts'>КОНТАКТЫ</a>" +
