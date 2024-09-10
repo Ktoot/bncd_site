@@ -30,6 +30,36 @@ p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 SIZE
 */
@@ -59,6 +89,34 @@ SIZE
     width: 300px;
     height: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -130,6 +188,30 @@ INDENTATION
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 BACKGROUND
 */
@@ -158,6 +240,26 @@ BACKGROUND
     background-position-y: center;
     background-attachment: fixed;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -206,6 +308,26 @@ FLEX and GRID
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 BUTTONS
 */
@@ -243,6 +365,28 @@ BUTTONS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 BORDER AND SHADOW
 */
@@ -270,6 +414,26 @@ BORDER AND SHADOW
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 ALIGN
 */
@@ -283,6 +447,17 @@ ALIGN
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
