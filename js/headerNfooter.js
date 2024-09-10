@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
     header.innerHTML = "<div class='headerContainer' >" +
-                            "<a href='#'  class= 'heigthFit'>" +
+                            "<a href='mainPage.html'  class= 'heigthFit'>" +
                                 "<img src='../images/logoBig.png' alt='logo' class='heigthFit'>" +
                             "</a>" +
                             "<div class='flexRow flexCenter flexBetween menu'>" +
