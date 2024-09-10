@@ -1,12 +1,43 @@
 
 .newsSection {
-    padding: 50px;
+    padding: 80px 0;
 }
 
 .newsTitle {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .newsContainer {
-    
+    width: 1200px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+
+.newsItem {
+    height: 150px;
+    display: grid;
+    grid-template-columns: 230px 1fr 70px;
+    grid-template-rows: auto 1fr;
+    gap: 15px 30px;
+}
+
+.newsItemImage {
+    width: 230px;
+    height: 150px;
+}
+
+
+
+
+.newsItemText {
+    word-break: keep-all;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.newsItemText::-webkit-scrollbar {
+    width: 0;
+}
+
