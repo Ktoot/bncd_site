@@ -4,7 +4,7 @@
     gap: 0 100px;
     opacity: 0;
     transform: translateX(+100px);
-    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 }
 
 .serviceContainer.visible {
@@ -17,7 +17,7 @@
     height: 400px;
     opacity: 0;
     transform: translateX(-100px);
-    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
 }
 
 .servicesImg.visible {
