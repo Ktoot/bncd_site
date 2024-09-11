@@ -20,10 +20,6 @@ body {
     transition: background-color 0.3s;
 }
 
-.tab:last-child {
-
-}
-
 .tab.active {
     background-color: #c8c8c8;
 }
@@ -53,6 +49,7 @@ body {
     color: #333;
     border: 1px solid black;
     transition: background-color 0.3s;
+    font-weight: bold;
 }
 
 .accordion-header:hover {

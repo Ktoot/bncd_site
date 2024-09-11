@@ -12,12 +12,16 @@ $(document).ready(function(){
                                 "<a href='mainPage.html' class='mainButton menuButton' id='menu_mainPage'>ГЛАВНАЯ</a>" +
                                 "<a href='news.html' class='mainButton menuButton' id='menu_news'>НОВОСТИ</a>" +
                                 "<a href='services.html' class='mainButton menuButton' id='menu_services'>УСЛУГИ</a>" +
-                                "<a href='about.html' class='mainButton menuButton' id='menu_about'>О НАС</a>" +
+                             "<div class='dropdown mainButton menuButton'>" +
+                                "<button class='dropbtn'>О НАС    ↓</button>" +
+                              "<div class='dropdown-content'>" +
+                                "<a href='#'>Об организации</a>" +
+                                "<a href='publications.html'>Разработки и публикации</a>" +
+                              "</div>" +
+                              "</div>" +
                                 "<a href='contacts.html' class='mainButton menuButton' id='menu_contacts'>КОНТАКТЫ</a>" +
                             "</div>" +
                         "</div>"
-
-
 
 
 

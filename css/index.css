@@ -333,7 +333,7 @@ BUTTONS
 */
 
 
-.mainButton {
+.mainButton, .dropbtn {
     background-color: #478ac9;
     font-weight: 800;
     font-size: 0.7rem;
