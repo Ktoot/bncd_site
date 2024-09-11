@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: flex;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.tab.active {
+    background-color: #c8c8c8;
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.accordion-item:first-child {
+    border-top: none;
+}
+
+.accordion-header {
+    background-color: #f1f1f1;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.accordion-header:hover {
+    background-color: #ddd;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background-image: linear-gradient(119deg, #478ac9, #4031b8);
+    border: 1px solid black;
+    color: white;
+}
+
+.accordion-content.active {
+    display: block;
+}
+
+.year-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.year-item:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 600px) {
+    .accordion-header {
+        font-size: 16px;
+    }
+
+    .accordion-content p, .year-item {
+        font-size: 14px;
+    }
+}

@@ -40,6 +40,10 @@ let newsList = [
 
 
 
+
+
+
+
 $(document).ready(function(){
 
     newsContainer = $(".MnewsGrid");
