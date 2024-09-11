@@ -1,0 +1,42 @@
+ 
+
+.practiceTitle {
+    margin: 50px;
+}
+
+.practiceContainer {
+    position: relative;
+    width: 1100px;
+    border: #000 2px solid;
+    padding: 20px;
+}
+
+
+.practiceSlider {
+    padding: 20px;
+    width: 100%;
+    overflow-x: scroll;    
+}
+
+.practiceSlider::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.prItemCard {
+    height: 300px;
+    width: 350px;
+}
+
+
+.prArrowSlider {
+    position: relative;
+    z-index: 999;
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+
+.prArrowLeft {
+    right: 30px;
+}
